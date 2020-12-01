@@ -27,6 +27,8 @@
             "expand",
             "open"
         ],
-        "v": "open:vsplit"
+        "v": "open:vsplit",
+        // snippets
+        "snippets.userSnippetsDirectory": "~/.config/nvim/snips"
     }
 }

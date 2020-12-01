@@ -20,9 +20,11 @@ Plug 'easymotion/vim-easymotion' "Buscador con 2 letras
 
 " Code
 Plug 'jiangmiao/auto-pairs'
+Plug 'tpope/vim-commentary' "Comentador de codigo <Space>/
 Plug 'vim-python/python-syntax'
 "Coc Intellisense
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'honza/vim-snippets'
 "Explorers -------------------------------------
 " Ranger
 Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
