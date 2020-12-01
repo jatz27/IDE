@@ -60,8 +60,6 @@ vnoremap > >gv
 " Ir al final de la linea
 nmap 9 $
 
-" Crear sessiones
-nnoremap <leader>ss :mksession sessionWSL.vim<CR>
 
 "Keys de terminal
 "Abrir terminal

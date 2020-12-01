@@ -21,3 +21,4 @@ source ~/.config/nvim/plug-config/rainbow.vim
 source ~/.config/nvim/plug-config/session-screen.vim
 source ~/.config/nvim/plug-config/signify.vim
 source ~/.config/nvim/plug-config/sneak.vim
+source ~/.config/nvim/keys/which-key.vim
