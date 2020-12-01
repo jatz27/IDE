@@ -15,7 +15,8 @@ Plug 'sheerun/vim-polyglot'
 
 " Tools
 Plug 'scrooloose/nerdtree'
-Plug 'easymotion/vim-easymotion'
+Plug 'preservim/nerdcommenter' "Comentador de codigo
+Plug 'easymotion/vim-easymotion' "Buscador con 2 letras
 
 " Code
 Plug 'jiangmiao/auto-pairs'
@@ -46,4 +47,7 @@ Plug 'junegunn/gv.vim'
 Plug 'justinmk/vim-sneak'
 " Which key
 Plug 'liuchengxu/vim-which-key'
+" Terminal flotante
+Plug 'voldikss/vim-floaterm'
+
 call plug#end()

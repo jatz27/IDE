@@ -22,3 +22,4 @@ source ~/.config/nvim/plug-config/session-screen.vim
 source ~/.config/nvim/plug-config/signify.vim
 source ~/.config/nvim/plug-config/sneak.vim
 source ~/.config/nvim/keys/which-key.vim
+source ~/.config/nvim/plug-config/floaterm.vim

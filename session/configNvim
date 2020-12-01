@@ -2,18 +2,19 @@ let SessionLoad = 1
 let s:so_save = &so | let s:siso_save = &siso | set so=0 siso=0
 let v:this_session=expand("<sfile>:p")
 silent only
-cd ~/.config/nvim
+cd /mnt/a/Documentos/wsl/python
 if expand('%') == '' && !&modified && line('$') <= 1 && getline(1) == ''
   let s:wipebuf = bufnr('%')
 endif
 set shortmess=aoO
-badd +13 init.vim
-badd +39 setting/plugin.vim
-badd +4 setting/mappin.vim
-badd +44 keys/which-key.vim
+badd +16 ~/.config/nvim/init.vim
+badd +39 ~/.config/nvim/setting/plugin.vim
+badd +57 ~/.config/nvim/setting/mappin.vim
+badd +63 ~/.config/nvim/keys/which-key.vim
+badd +9 aprender/operadorAritmetico.py
 argglobal
 %argdel
-edit setting/mappin.vim
+edit aprender/operadorAritmetico.py
 set splitbelow splitright
 wincmd t
 set winminheight=0
@@ -30,11 +31,11 @@ setlocal fml=1
 setlocal fdn=20
 setlocal fen
 silent! normal! zE
-let s:l = 4 - ((3 * winheight(0) + 19) / 38)
+let s:l = 19 - ((18 * winheight(0) + 19) / 38)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-4
+19
 normal! 0
 lcd ~/.config/nvim
 tabnext 1

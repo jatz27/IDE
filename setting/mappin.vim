@@ -13,7 +13,7 @@ inoremap <C-e> <C-o>$
 " Navegar entre arcivos
 nnoremap <leader><TAB> :bp<Cr>
 nnoremap <TAB> :bn<Cr>
-nnoremap <C-d> :bd<CR>
+nnoremap <leader>d :bd<CR>
 nnoremap <leader>x :q<CR>
 nnoremap <C-s> :w<CR>
 inoremap <C-s> <C-o>:w<CR>
@@ -50,7 +50,7 @@ inoremap kj <Esc>
 
 "Dividir pantalla
 nnoremap <leader>v <C-w>v
-nnoremap <leader>s <C-w>s
+nnoremap <leader>sk <C-w>s
 nnoremap <leader>q <C-w>q
 
 "Tabulacion 
