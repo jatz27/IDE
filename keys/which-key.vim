@@ -119,3 +119,12 @@ let g:which_key_map.l = {
       \ 'Z' : [':CocEnable'                          , 'enable CoC'],
       \ }
       " \ 'o' : ['<Plug>(coc-openlink)'                , 'open link'],
+
+let g:which_key_map.S = {
+      \ 'name' : '+Session' ,
+      \ 'c' : [':SClose'          , 'Close Session']  ,
+      \ 'd' : [':SDelete'         , 'Delete Session'] ,
+      \ 'l' : [':SLoad'           , 'Load Session']     ,
+      \ 't' : [':Startify'        , 'Start Page']     ,
+      \ 's' : [':SSave'           , 'Save Session']   ,
+      \ }

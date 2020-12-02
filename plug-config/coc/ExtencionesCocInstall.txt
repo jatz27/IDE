@@ -1,2 +1,0 @@
-Estas son las extenciones que tengo instaladas en WSL
-CocInstall: coc-json coc-python coc-vimlsp coc-tsserver coc-html coc-css coc-yaml coc-explorer coc-snippets
