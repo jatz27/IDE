@@ -1,4 +1,10 @@
 #!/usr/bin/bash
+# --Plugins-------------------------------------------------------------
+# Se instala vim plug
+sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
+       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+mkdir ~/.local/share/nvim/plugged # Se crea la carpeta donde se guardaran los plugins 
+# ----------------------------------------------------------------------
 #----C-O-C----------------------------------------------------------------
 set -o nounset    # error when referencing undefined variable
 set -o errexit    # exit when command fails
@@ -13,7 +19,6 @@ fi
 # Change extension names to the extensions you need
 npm install  coc-json coc-python coc-vimlsp coc-tsserver coc-html coc-css coc-yaml coc-explorer coc-snippets coc-lua coc-explorer --global-style --ignore-scripts --no-bin-links --no-package-lock --only=prod
 # ----------------------------------------------------------------------
-
 #Ranger --------------------------------------------------------------------
 # Instala el gestor de archivos Ranger
 sudo apt-get install ranger -y

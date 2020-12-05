@@ -11,11 +11,12 @@ nnoremap <C-H> <C-W><C-H>
 inoremap <C-e> <C-o>$ 
 
 " Navegar entre arcivos
-nnoremap <leader><TAB> :bp<Cr>
+nnoremap <S-TAB> :bp<Cr>
 nnoremap <TAB> :bn<Cr>
 nnoremap <C-d> :bd<CR>
 nnoremap <A-x> :q<CR>
 nnoremap <C-s> :w<CR>
+nnoremap <A-q> :wq<CR>
 inoremap <C-s> <C-o>:w<CR>
 
 " NerdTree
