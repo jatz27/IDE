@@ -11,7 +11,7 @@ then
   echo '{"dependencies":{}}'> package.json
 fi
 # Change extension names to the extensions you need
-npm install  coc-json coc-python coc-vimlsp coc-tsserver coc-html coc-css coc-yaml coc-explorer coc-snippets coc-lua coc-explorer --global-style --ignore-scripts --no-bin-links --no-package-lock --only=prod
+npm install  coc-json coc-python coc-vimlsp coc-tsserver coc-html coc-css coc-yaml coc-explorer coc-snippets coc-lua coc-explorer coc-marketplace --global-style --ignore-scripts --no-bin-links --no-package-lock --only=prod
 # ----------------------------------------------------------------------
 #Ranger --------------------------------------------------------------------
 # Instala el gestor de archivos Ranger

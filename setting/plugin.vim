@@ -51,5 +51,7 @@ Plug 'justinmk/vim-sneak'
 Plug 'liuchengxu/vim-which-key'
 " Terminal flotante
 Plug 'voldikss/vim-floaterm'
+" Closetags
+Plug 'alvan/vim-closetag'
 
 call plug#end()
