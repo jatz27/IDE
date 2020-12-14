@@ -71,3 +71,6 @@ vnoremap <C-t> :split<CR>:ter<CR>:resize 15<CR>
 "Plugin commentary
 nnoremap <space>/ :Commentary<CR>
 vnoremap <space>/ :Commentary<CR>
+
+" dos puntos editas
+nmap <C-e> :e 

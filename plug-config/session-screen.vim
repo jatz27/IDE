@@ -1,5 +1,5 @@
 " Donde se guaradaran las sesiones
-let g:startify_session_dir = '~/session'
+let g:startify_session_dir = '~/.config/session'
 
 "Menu Custom
 let g:startify_lists = [
