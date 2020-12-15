@@ -75,6 +75,7 @@ let g:which_key_map.t = {
       \ 't' : [':FloatermToggle'                                , 'toggle'],
       \ 'y' : [':FloatermNew ytop'                              , 'ytop'],
       \ 's' : [':FloatermNew ncdu'                              , 'ncdu'],
+      \ 'm' : [':FloatermNew mycli -u root -p "Root:)123"'       , 'mycli'],
       \ }
 
 " l is for language server protocol
