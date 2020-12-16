@@ -65,7 +65,7 @@ let g:which_key_map.s = {
 let g:which_key_map.t = {
       \ 'name' : '+terminal' ,
       \ ';' : [':FloatermNew --wintype=popup --height=6'        , 'terminal'],
-      \ 'f' : [':FloatermNew fzf'                               , 'fzf'],
+      \ 'f' : [':FloatermNew $(fzf-lovely)'                               , 'fzf'],
       \ 'g' : [':FloatermNew lazygit.exe'                           , 'git'],
       \ 'd' : [':FloatermNew lazydocker.exe'                        , 'docker'],
       \ 'n' : [':FloatermNew node'                              , 'node'],
