@@ -74,3 +74,6 @@ vnoremap <space>/ :Commentary<CR>
 
 " dos puntos editas
 nmap <C-e> :e 
+
+" copiar, cortar y pegar
+nmap <C-c> y
