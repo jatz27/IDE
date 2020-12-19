@@ -26,3 +26,6 @@ sudo apt-get install ripgrep universal-ctags silversearcher-ag fd-find -y
 # Crea el directorio donde se almacenaran las sessiones
 mkdir ~/.config/session
 # ---------------------------------------------------------------------------
+
+# live-server ----------------------------------------------------------------
+sudo npm i -g live-server
