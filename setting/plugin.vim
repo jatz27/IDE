@@ -53,5 +53,6 @@ Plug 'liuchengxu/vim-which-key'
 Plug 'voldikss/vim-floaterm'
 " Closetags
 Plug 'alvan/vim-closetag'
-
+" live server
+Plug 'turbio/bracey.vim', {'do': 'npm install --prefix server'}
 call plug#end()

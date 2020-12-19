@@ -25,3 +25,4 @@ source ~/.config/nvim/keys/which-key.vim
 source ~/.config/nvim/plug-config/floaterm.vim
 source ~/.config/nvim/plug-config/coc/coc-snippets.vim
 source ~/.config/nvim/plug-config/closetags.vim
+source ~/.config/nvim/plug-config/bracey-live-sever.vim
