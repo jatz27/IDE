@@ -77,3 +77,7 @@ nmap <C-e> :e
 
 " copiar, cortar y pegar
 nmap <C-c> y
+
+" mover bloques de codigo en modo visual o visual-line
+xnoremap K :move '<-2<CR>gv-gv
+xnoremap J :move '>+1<CR>gv-gv
