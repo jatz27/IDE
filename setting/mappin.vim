@@ -81,3 +81,6 @@ nmap <C-c> y
 " mover bloques de codigo en modo visual o visual-line
 xnoremap K :move '<-2<CR>gv-gv
 xnoremap J :move '>+1<CR>gv-gv
+
+" quitar marcas de busqueda
+nmap <silent> <leader>n :nohlsearch<CR>

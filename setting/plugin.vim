@@ -22,6 +22,7 @@ Plug 'easymotion/vim-easymotion' "Buscador con 2 letras
 Plug 'jiangmiao/auto-pairs'
 Plug 'tpope/vim-commentary' "Comentador de codigo <Space>/
 Plug 'vim-python/python-syntax'
+Plug 'mattn/emmet-vim' "Emmet
 "Coc Intellisense
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'honza/vim-snippets'
